@@ -14,6 +14,27 @@
     <div class="item">2</div>
     <div class="item">3</div>
     <div class="item">4</div>
+    <!-- Insert this script at the bottom of the HTML, but before you use any Firebase services -->
+      <script type="module">
+          // Import the functions you need from the SDKs you need
+          import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+          // TODO: Add SDKs for Firebase products that you want to use
+          // https://firebase.google.com/docs/web/setup#available-libraries
+
+          // Your web app's Firebase configuration
+          const firebaseConfig = {
+        apiKey: "AIzaSyBiK3RSOxV8TlLm1rX8zA7iTPl4vik4e0I",
+        authDomain: "html-demo-7af7e.firebaseapp.com",
+        projectId: "html-demo-7af7e",
+        storageBucket: "html-demo-7af7e.appspot.com",
+        messagingSenderId: "207376380154",
+        appId: "1:207376380154:web:d2b2602c3e92085fc25943"
+      };
+
+          window.initializeApp = initializeApp
+          window.firebaseConfig = firebaseConfig
+    </script>
+    <script src="scripts/index.js" type="module"></script>
 </div>
 </body>
 </html>
