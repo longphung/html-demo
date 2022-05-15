@@ -1,0 +1,9 @@
+.wrapper {
+    width: 100%;
+}
+
+.item {
+    width: 25%;
+    float: left;
+    background-color: red;
+}
